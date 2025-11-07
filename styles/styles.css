@@ -1,0 +1,16 @@
+main {
+    max-width: 840px;
+    margin: 1rem;
+    border:1px solid rgba(8, 7, 107, 0.2);
+    color: #09a873;
+    text-align: center;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+p {
+    padding: 0px;
+}
