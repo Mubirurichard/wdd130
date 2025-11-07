@@ -54,7 +54,7 @@ nav {
 nav a {
     color: purple;
     padding: 10px;
-    display: inline-block;
+    display: block;
 }
 
 h1 {
