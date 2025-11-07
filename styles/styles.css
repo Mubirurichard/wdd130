@@ -1,9 +1,18 @@
 main {
     max-width: 840px;
     margin: 1rem;
-    border:1px solid rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.2);
     color: #07d18e;
     text-align: center;
+}
+
+aside {
+    width: 250px;
+    margin: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    background-color: lightblue;
+    color: black;
 }
 
 aside img {
@@ -16,7 +25,7 @@ aside img {
 }
 
 p {
-    padding: 2px;
+    padding: 0;
 }
 
 main img {
@@ -43,12 +52,11 @@ nav {
 }
 
 nav a {
+    color: purple;
     padding: 10px;
-
-    
+    display: inline-block;
 }
 
 h1 {
     color: #07d18e;
-
 }
