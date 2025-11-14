@@ -1,9 +1,7 @@
 /* CSS Variables */
 :root {
     --primary-color: #2a5298;
-    --secondary-color: #4CAF50;
     --accent1-color: #333333;
-    --accent2-color: #f8f9fa;
     --heading-font: "Times New Roman", Georgia, serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -97,7 +95,7 @@ nav, p, section, article {
     height: auto;
 }
 
-.hero h1 {
+.hero article h1 {
     position: absolute;
     top: 20px;
     width: 100%;
