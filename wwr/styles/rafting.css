@@ -1,16 +1,16 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /* CSS Variables */
 :root {
     --primary-color: #2a5298;
     --accent1-color: #333333;
     --heading-font: "Times New Roman", Georgia, serif;
     --body-font: Arial, Helvetica, sans-serif;
-}
-
-/* Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
 
 /* Body Styles */
@@ -109,7 +109,7 @@ nav, p, section, article {
 
 .hero article {
     position: absolute;
-    bottom: 20px;
+    bottom: 10px;
     left: 20px;
     right: 20px;
     background-color: rgba(255, 255, 255, 0.9);
