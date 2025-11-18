@@ -97,7 +97,7 @@ nav, p, section, article {
 
 .hero article h1 {
     position: absolute;
-    top: 20px;
+    bottom: 350px;
     width: 100%;
     padding: 1rem;
     text-align: center;
