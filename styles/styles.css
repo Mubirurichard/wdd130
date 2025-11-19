@@ -4,30 +4,24 @@
   box-sizing: border-box;
 }
 
-/* :root {
-    --primary-color: #07d18e;
-    --secondary-color: purple;
-    --border-color: rgba(0, 0, 0, 0.2);
-    --bg-light: lightblue;
-    --text-dark: black;
-    --bg-dark: brown;
-    --accent-color: orange;
-    --accent-blue: blue;
-    --error-color: red;
-    --shadow-color: purple;
-} */
+.grid {
+    display: grid;
+}
 
 main {
-    max-width: 840px;
-    /* margin: 1rem; */
     border: 0px solid rgba(0, 0, 0, 0.2);
-    color: #07d18e;
+    color: #2c3e50; /* Dark blue-gray for better contrast */
     text-align: left;
+    grid-column: 1/2;
+    background-color: #ffffff; /* White background for contrast */
 }
 
 aside {
     width: 250px;
     text-align: center;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background-color: #f8f9fa; /* Light gray background */
 }
 
 aside img {
@@ -35,24 +29,25 @@ aside img {
     height: auto;
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.2);
-    background-color: blue;
-    color: orange;
+    background-color: #2c3e50; /* Dark blue instead of bright blue */
 }
 
 aside h2 {
     top: px;
     left: 150px;
+    color: #2c3e50; /* Dark text for contrast */
 }
 
 h1 {
-    padding: rem
-
+    padding: 1rem; /* Added missing value */
+    color: #1a5276; /* Dark blue for better contrast */
+    border-bottom: 4px solid #1e8449; /* Dark green */
 }
 
 p {
     padding: 4px;
     text-align: left;
-
+    color: #2c3e50; /* Dark text for readability */
 }
 
 main img {
@@ -66,26 +61,33 @@ main img {
 
 footer {
     margin-top: 10px;
-    border-top: 2px solid red;
+    border-top: 2px solid #c0392b; /* Dark red */
     text-align: center;
+    background-color: #34495e; /* Dark background */
+    color: #ecf0f1; /* Light text for contrast */
+    padding: 1rem;
 }
 
 nav {
-    background-color: brown;
+    background-color: #1a5276; /* Dark blue */
     padding: 10px;
     display: block;
-    color: purple;
-    text-align: left;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 nav a {
-    color: purple;
+    color: #ffffff; /* White text on dark background */
     padding: 10px;
     display: block;
+    font-weight: bold;
+    text-decoration: none;
 }
 
-h1 {
-    color: #07d18e;
+header, .grid, footer {
+    max-width: 840px;
+    margin: 0 auto;
 }
 
 /* Class Selectors */
@@ -93,10 +95,24 @@ h1 {
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 1rem;
-    background-color: #ddd;
-    color: black;
+    background-color: #ecf0f1; /* Light gray */
+    color: #2c3e50; /* Dark text */
 }
 
 .indent {
     padding: 2rem;
+}
+
+ul.box a {
+    color: #1a5276; /* Dark blue links */
+    text-decoration: none;
+}
+
+ul.box a:hover {
+    color: #c0392b; /* Red on hover */
+    text-decoration: underline;
+}
+
+aside p {
+    color: #2c3e50; /* Ensure dark text in aside */
 }
