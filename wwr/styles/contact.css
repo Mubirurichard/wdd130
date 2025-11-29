@@ -60,7 +60,7 @@ nav a:hover {
 }
 
 
-h1, p {
+.contact-info h1, p {
     display: flex;
     justify-content: center;
     font-family: var(--heading-font);
@@ -121,7 +121,7 @@ h1, p {
     padding-left: 1rem;
 }
 
-button {
+form button {
     background-color: navy;
     color: #fff;
     display: block;
@@ -155,7 +155,7 @@ h2 {
     justify-self: center;
 }
 
-.gallery {
+.employees {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
@@ -163,7 +163,7 @@ h2 {
     align-content: space-around;
 }
 
-.gallery img {
+.employees img {
     width: 100%;
     height: auto;
     /* display: block; */

@@ -59,6 +59,81 @@ nav a:hover {
     text-decoration: underline;
 }
 
+.contact-info h1, p {
+    display: flex;
+    justify-content: center;
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    margin: 0px;   
+}
+
+.contact-info, .container {
+    margin: 1rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 1rem;
+}
+
+.container{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1rem;
+    height: 390px;
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+.form-section .form-group label {
+    margin: 1.5rem;
+    /* width: 100px; */
+}
+
+.form-section .form-group input {
+    margin: 1rem;
+    height: 35px;
+    width: 16rem;
+}
+
+.radio-group {
+    display: flex;
+    font-size: small;
+    flex-direction: column;
+}
+
+.form-group1 {
+    display: grid;
+    grid-template-columns: 1fr 2.5fr;
+}
+
+.form-group1 .message {
+    width: 10px;
+    padding-left: 1.5rem;
+}
+
+.form-group2 {
+    display: grid;
+    padding: 1rem;
+}
+
+.form-group3 {
+    display: flex;
+    padding-left: 1rem;
+}
+
+form button {
+    background-color: navy;
+    color: #fff;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    width: 14rem;
+    height: 25px;
+}
+
+iframe {
+    width: 390px;
+    height: 350px;
+    border: 0;
+}
 
 /* Section Styles */
 section {
@@ -81,7 +156,7 @@ h2 {
 
 .gallery {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 1rem;
     margin: 1rem 0;
 }
@@ -98,21 +173,44 @@ figcaption {
     margin-top: 2px;
 }
 
+.employees {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin: 1rem 0;
+    align-content: space-around;
+}
+
+.employees img {
+    width: 100%;
+    height: auto;
+    /* display: block; */
+}
+
 /* Footer Styles */
 footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    background-color: var(--primary-color);
+    background-color: var(--accent1-color);
     color: white;
     margin-top: 2rem;
 }
 
 /* Basic spacing */
-nav, p, section, article {
+nav, section, article {
     margin: 16px;
     padding: 8px;
+}
+
+.about {
+    margin: 16px;
+    padding: 8px;
+}
+
+footer p {
+    color: #fff;
 }
 
 /* Class Selectors */
