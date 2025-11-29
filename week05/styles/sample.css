@@ -1,0 +1,23 @@
+form {
+    display: block;
+    margin-bottom: 1em;
+    max-width: 200px;
+}
+
+label {
+    display: block;
+    margin-bottom: 0rem;
+    display: flex;
+    align-content: center;
+}
+
+input, textarea, select, button {
+    width: 90%;
+    padding: 0.55em;
+    margin-bottom: 1rem;
+}
+
+input[type="checkbox"] {
+    width: 25px;
+    height: 25px;
+}
