@@ -510,3 +510,7 @@ footer p {
         padding: 0.75rem;
     }
 }
+
+.hero-title, .hero-subtitle, .top-content, .top-content h1, .top a {
+    color: white;
+}
